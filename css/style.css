@@ -51,6 +51,7 @@ body{
 }
 
 .container{
+    margin: 0 auto;
     width: 1350px;
 }
 
@@ -66,6 +67,10 @@ body{
 
 h1{
     font-size: 80px;
+}
+
+h2{
+    font-size: 48px;
 }
 
 /*----------- 
@@ -130,8 +135,9 @@ header ul li a{
 ------------*/
 
 .sct-hero{
-    padding-top: 110px;
     background-color: #b4d0e7;
+    padding-top: 110px;
+    margin-bottom: 200px;
 }
 
 .hero-text, .hero-pic{
@@ -168,6 +174,25 @@ header ul li a{
 small{
     font-size: 12px;
     display: block;
+}
+
+
+/*----------- 
+    Subs
+------------*/
+
+.sct-subs{
+    text-align: left;
+}
+
+.radio-ipt{
+    margin-top: 60px;
+    margin-bottom: 45px;
+}
+
+.radio-ipt label{
+    margin-left: 5px;
+    margin-right: 20px;
 }
 
 /*----------- 
