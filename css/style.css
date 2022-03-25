@@ -88,7 +88,7 @@ header ul, header ul li{
 
 header ul li a{
     color: inherit;
-    margin-right: 20px;
+    margin-right: 40px;
     text-decoration: none;
 }
 
@@ -100,9 +100,17 @@ header ul li a{
 
 .logo-col img{
     vertical-align: middle;
-    margin-right: 20px;
+    margin-right: 40px;
 }
 
 .login-col{
     text-align: right;
 }
+
+/*----------- 
+    /Header 
+------------*/
+
+/*----------- 
+    /Main
+------------*/
