@@ -1,0 +1,81 @@
+/*--------- 
+    Reset 
+----------*/
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+/*------------- 
+    Debug Zone 
+--------------*/
+
+
+
+/*------------- 
+    /Debug Zone 
+--------------*/
+.debug header{
+    background-color: blue;
+}
+
+.debug .logo-col{
+    background-color: pink;
+    height: 80px;
+}
+
+.debug .login-col{
+    background-color: yellow;
+    height: 80px;
+}
+
+/*----------- 
+    Commons 
+------------*/
+
+.container-big{
+    width: 1440px;
+}
+
+.container{
+    width: 1350px;
+}
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/*----------- 
+    Typo 
+------------*/
+
+/*----------- 
+    Header 
+------------*/
+
+header{
+    height: 80px;
+}
+
+.logo-col, .login-col{
+    float: left;
+    line-height: 80px;
+    width: 50%;
+} 
+
+/* .logo-col{
+    float:left;
+}
+
+.login-col{
+    float:right;
+} */
