@@ -36,11 +36,17 @@ body{
     height: 80px;
 } */
 
+/* .debug .sct-hero{
+    background-color: blue;
+    height: 500px;
+} */
+
 /*----------- 
     Commons 
 ------------*/
 
 .container-big{
+    margin: 0 auto;
     width: 1440px;
 }
 
@@ -58,6 +64,9 @@ body{
     Typo 
 ------------*/
 
+h1{
+    font-size: 80px;
+}
 
 /*----------- 
     Buttons
@@ -77,6 +86,8 @@ header{
     width: 100%;
     position: fixed;
     z-index: 10;
+    top: 0;
+    left: 0;
     background-color: #ffffff;
     height: 80px;
     padding: 0px 20px;
@@ -110,6 +121,54 @@ header ul li a{
 /*----------- 
     /Header 
 ------------*/
+
+/*----------- 
+    /Main
+------------*/
+/*----------- 
+    Hero
+------------*/
+
+.sct-hero{
+    padding-top: 110px;
+    background-color: #b4d0e7;
+}
+
+.hero-text, .hero-pic{
+    display: inline-block;
+    vertical-align: top;
+}
+
+.hero-pic{
+    width: calc(65% - 4px);
+}
+
+.hero-pic img{
+    width: 100%;
+    position: relative;
+    bottom: -60px;
+}
+
+.hero-text{
+    width: calc(35% - 104px);
+    padding-top: 60px;
+    text-align: left;
+    margin-right: 100px;
+}
+
+.hero-text .btn{
+    margin: 20px 0px 10px 0px;
+}
+
+.hero-text i{
+    margin-top: 50px;
+    font-size: 38px;
+}
+
+small{
+    font-size: 12px;
+    display: block;
+}
 
 /*----------- 
     /Main
