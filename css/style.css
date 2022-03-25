@@ -22,7 +22,7 @@ body{
 /*------------- 
     /Debug Zone 
 --------------*/
-.debug header{
+/* .debug header{
     background-color: blue;
 }
 
@@ -34,7 +34,7 @@ body{
 .debug .login-col{
     background-color: yellow;
     height: 80px;
-}
+} */
 
 /*----------- 
     Commons 
@@ -58,12 +58,38 @@ body{
     Typo 
 ------------*/
 
+
+/*----------- 
+    Buttons
+------------*/
+.btn{
+    color: #ffffff;
+    background-color: #0061ff;
+    padding: 8px 20px;
+    border: none;
+}
+
 /*----------- 
     Header 
 ------------*/
 
 header{
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+    background-color: #ffffff;
     height: 80px;
+    padding: 0px 20px;
+}
+
+header ul, header ul li{
+    display: inline-block;
+}
+
+header ul li a{
+    color: inherit;
+    margin-right: 20px;
+    text-decoration: none;
 }
 
 .logo-col, .login-col{
@@ -72,10 +98,11 @@ header{
     width: 50%;
 } 
 
-/* .logo-col{
-    float:left;
+.logo-col img{
+    vertical-align: middle;
+    margin-right: 20px;
 }
 
 .login-col{
-    float:right;
-} */
+    text-align: right;
+}
