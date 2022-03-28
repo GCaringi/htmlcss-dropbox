@@ -331,6 +331,40 @@ small{
     Multitasking
 -----------------*/
 
+.sct-multitasking{
+    margin-bottom: 210px;
+}
+
+.sct-multitasking h2{
+    margin-bottom: 60px;
+}
+
+.sct-multitasking img{
+    width: 100%;
+}
+
+.row-multi{
+    margin-bottom: 120px;
+}
+
+.col-multi{
+    float: left;
+    width: calc(100% / 3 - 54px);
+}
+
+.col-multi:nth-child(2n){
+    margin: 0px 81px;
+}
+
+.col-multi-text p{
+    margin-top: 40px;
+}
+
+.col-multi-text span{
+    text-decoration: underline;
+}
+
+
 
 /*----------- 
     /Main
