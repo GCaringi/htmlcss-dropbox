@@ -12,45 +12,6 @@ body{
     font-family: 'Open Sans', sans-serif;
 }
 
-
-/*------------- 
-    Debug Zone 
---------------*/
-
-
-
-/*------------- 
-    /Debug Zone 
---------------*/
-/* .debug header{
-    background-color: blue;
-}
-
-.debug .logo-col{
-    background-color: pink;
-    height: 80px;
-}
-
-.debug .login-col{
-    background-color: yellow;
-    height: 80px;
-} */
-
-/* .debug .sct-hero{
-    background-color: blue;
-    height: 500px;
-} */
-
-/* .debug .subs-info{
-    background-color: blue;
-    height: 600px;
-} */
-
-/* .debug .col, .debug .col-mid{
-    background-color: green;
-    height: 600px;
-} */
-
 /*----------- 
     Commons 
 ------------*/
@@ -534,7 +495,55 @@ small{
     text-align: right;
 }
 
-
 /*----------- 
     /Main
 ------------*/
+
+/*----------- 
+    Footer
+------------*/
+footer{
+    background-color: #000000;
+    color: white;
+}
+
+footer hr{
+    width: 10%;
+    color: #999999;
+}
+
+.top-footer{
+    padding: 105px 0px;
+}
+
+.top-footer h4{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.top-footer ul li{
+    list-style: none;
+    font-size: 18px;
+    margin-top: 10px;
+
+}
+
+.foot-col{
+    float: left;
+    width: calc(100% / 5);
+}
+
+.bottom-footer{
+    padding: 50px;
+    color: #999999;
+}
+
+.bottom-footer i{
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+/*----------- 
+    /Footer
+------------*/
+
