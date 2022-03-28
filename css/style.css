@@ -391,6 +391,7 @@ small{
 }
 
 .col-adv{
+    position: relative;
     background-color: red;
     width: 12.5vw;
 }
@@ -401,23 +402,55 @@ small{
 }
 
 .pic{
+    position: relative;
     height: 12.5vw;
     padding: 80px;
+    
 }
 
 .pic img{
-    width: 100%;
-    height: 100%;
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
+
+/* Style each box */
 
 .pic-designit{
     border: 10px solid #d0e9cd;
     background-color: #a2d39b;
 }
 
+.pic-florida{
+    background-color: #0093ce;
+}
 
 
+.pic-asu{
+    background-color: #61082b;
+}
 
+.pic-topps{
+    background-color: #ff1c1c;
+}
+
+.pic-wbr{
+    background-color: #d5001f;
+}
+
+.pic-lonely{
+    background-color: #0d2481;
+}
+
+.pic-hearst{
+    background-color: #b4d0e7;
+}
+
+.pic-clear{
+    background-color: #ffd830;
+}
 
 /*----------- 
     /Main
