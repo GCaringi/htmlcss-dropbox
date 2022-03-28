@@ -391,14 +391,31 @@ small{
 }
 
 .col-adv{
-    position: relative;
     background-color: red;
     width: 12.5vw;
 }
 
 .col-adv-main{
     width: calc(100% - 50vw);
-    background-color: green;
+    height: 25vw;
+    background-color: #f5f5f5;
+    padding: 45px 45px 45px 60px;
+
+}
+
+.col-adv-main img{
+    width: 20%;
+}
+
+.col-adv-main hr{
+    width: 5%;
+    margin: 40px 0px;
+}
+
+.col-adv-main blockquote{
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 60px;
 }
 
 .pic{
@@ -426,7 +443,6 @@ small{
 .pic-florida{
     background-color: #0093ce;
 }
-
 
 .pic-asu{
     background-color: #61082b;
