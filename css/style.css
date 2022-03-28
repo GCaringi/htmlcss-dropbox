@@ -480,7 +480,9 @@ small{
 
 .sct-trial{
     background-color: #b4d0e7;
+    color: #61082b;
     padding: 140px 0px;
+    margin-bottom: 140px;
 }
 
 
@@ -489,14 +491,49 @@ small{
     width: calc(50% - 4px);
 }
 
-.sct-trial{
-    color: #61082b;
-}
-
 .trial-button{
     vertical-align: top;
     text-align: right;
 }
+
+/*---------------- 
+        FAQ
+-----------------*/
+
+.sct-faq{
+    margin-bottom: 130px;
+}
+
+.sct-faq .container{
+    border-bottom: 1px solid #d0d0d3;
+    
+}
+
+.sct-faq h3{
+    margin-bottom: 60px;
+}
+
+.faq-question{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 40px 0px;
+    border-top: 1px solid #d0d0d3;
+
+}
+
+.faq-text, .faq-symbol{
+    display: inline-block;
+}
+
+.faq-text{
+    width: calc(90% - 4px);
+}
+
+.faq-symbol{
+    width: calc(10% - 4px);
+    text-align: right;
+}
+
 
 /*----------- 
     /Main
