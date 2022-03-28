@@ -41,24 +41,39 @@ body{
     height: 500px;
 } */
 
+/* .debug .subs-info{
+    background-color: blue;
+    height: 600px;
+} */
+
+/* .debug .col, .debug .col-mid{
+    background-color: green;
+    height: 600px;
+} */
+
 /*----------- 
     Commons 
 ------------*/
 
 .container-big{
     margin: 0 auto;
-    width: 1440px;
+    max-width: 1440px;
 }
 
 .container{
     margin: 0 auto;
-    width: 1350px;
+    max-width: 1350px;
 }
 
 .clearfix::after{
     content: "";
     display: table;
     clear: both;
+}
+
+hr{
+    width: 20%;
+    color: #d0d0d3;
 }
 
 /*----------- 
@@ -73,12 +88,17 @@ h2{
     font-size: 48px;
 }
 
+h3{
+    font-size: 35px;
+}
+
 /*----------- 
     Buttons
 ------------*/
 .btn{
     color: #ffffff;
     background-color: #0061ff;
+    font-size: 18px;
     padding: 8px 20px;
     border: none;
 }
@@ -180,6 +200,7 @@ small{
 /*----------- 
     Subs
 ------------*/
+/* Heading of the subscription */
 
 .sct-subs{
     text-align: left;
@@ -194,6 +215,64 @@ small{
     margin-left: 5px;
     margin-right: 20px;
 }
+
+/* Subscription info */
+
+.col{
+    float:left;
+    width: calc(100% / 3 - 40px);
+    min-height: 1024px;
+    border: 1px solid #d0d0d3;
+}
+
+.subs-info .col:nth-child(2n){
+    margin: 0px 60px;
+}
+
+.col-title{
+    border-bottom: 1px solid #d0d0d3;
+    text-align: center;
+    padding: 15px 0px;
+}
+
+.col-text{
+    padding: 30px;
+    text-align: left;
+}
+
+.col-text small{
+    margin-bottom: 60px;
+}
+
+.col-text i{
+    margin: 10px 5px;
+}
+
+.col-text .btn{
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 15px;
+
+}
+
+.col-text h4{
+    margin-top: 45px;
+}
+
+.col-text ul li{
+    margin: 35px 0px;
+    list-style: none;
+}
+
+.col-text ul li::before{
+    content: "\2713";
+    color: #0061ff;
+    margin-right: 5px;
+
+}
+
+
 
 /*----------- 
     /Main
