@@ -104,6 +104,13 @@ h3{
     border: none;
 }
 
+.btn-white{
+    color:inherit;
+    background-color: transparent;
+    border: 1px solid black;
+
+}
+
 /*----------- 
     Header 
 ------------*/
@@ -292,6 +299,38 @@ small{
 /*---------------- 
     Find a partner
 -----------------*/
+
+.sct-find-partner{
+    margin-bottom: 120px;
+}
+
+.col-pic-find, .col-text-find{
+    float: left;
+    width: calc(50% - 40px);
+}
+
+.col-pic-find img{
+    width: 100%;
+}
+
+.col-text-find{
+    margin-left: 80px;
+    padding-top: 45px;
+}
+
+.col-text-find h3{
+    margin-bottom: 40px;
+}
+
+.col-text-find p{
+    line-height: 28px;
+    margin-bottom: 30px;
+}
+
+/*---------------- 
+    Multitasking
+-----------------*/
+
 
 /*----------- 
     /Main
