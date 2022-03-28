@@ -104,11 +104,18 @@ h3{
     border: none;
 }
 
-.btn-white{
+.btn-trasparent{
     color:inherit;
     background-color: transparent;
     border: 1px solid black;
 
+}
+
+.btn-white{
+    color: black;
+    background-color: white;
+    padding: 8px 65px;
+    
 }
 
 /*----------- 
@@ -391,13 +398,12 @@ small{
 }
 
 .col-adv{
-    background-color: red;
-    width: 12.5vw;
+    width: 15vw;
 }
 
 .col-adv-main{
-    width: calc(100% - 50vw);
-    height: 25vw;
+    width: calc(100% - 60vw);
+    height: 30vw;
     background-color: #f5f5f5;
     padding: 45px 45px 45px 60px;
 
@@ -420,7 +426,7 @@ small{
 
 .pic{
     position: relative;
-    height: 12.5vw;
+    height: 15vw;
     padding: 80px;
     
 }
@@ -466,6 +472,30 @@ small{
 
 .pic-clear{
     background-color: #ffd830;
+}
+
+/*---------------- 
+    Trial
+-----------------*/
+
+.sct-trial{
+    background-color: #b4d0e7;
+    padding: 140px 0px;
+}
+
+
+.sct-trial h2, .trial-button{
+    display: inline-block;
+    width: calc(50% - 4px);
+}
+
+.sct-trial{
+    color: #61082b;
+}
+
+.trial-button{
+    vertical-align: top;
+    text-align: right;
 }
 
 /*----------- 
