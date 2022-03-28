@@ -365,6 +365,59 @@ small{
 }
 
 
+/*---------------- 
+        ADV
+-----------------*/
+
+/* Heading of advs */
+.adv-title{
+    margin-bottom: 50px;
+}
+
+.adv-title h2{
+    width: 50%;
+    margin-bottom: 50px;
+}
+
+.adv-title a{
+    font-size: 20px;
+}
+
+
+/* Picture various sponsor */
+
+.col-adv, .col-adv-main{
+    float: left;
+}
+
+.col-adv{
+    background-color: red;
+    width: 12.5vw;
+}
+
+.col-adv-main{
+    width: calc(100% - 50vw);
+    background-color: green;
+}
+
+.pic{
+    height: 12.5vw;
+    padding: 80px;
+}
+
+.pic img{
+    width: 100%;
+    height: 100%;
+}
+
+.pic-designit{
+    border: 10px solid #d0e9cd;
+    background-color: #a2d39b;
+}
+
+
+
+
 
 /*----------- 
     /Main
