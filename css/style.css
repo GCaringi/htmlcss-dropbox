@@ -63,6 +63,7 @@ h3{
     font-size: 18px;
     padding: 8px 20px;
     border: none;
+    cursor: pointer;
 }
 
 .btn-trasparent{
@@ -370,6 +371,7 @@ small{
     height: 30vw;
     background-color: #f5f5f5;
     padding: 45px 45px 45px 60px;
+    overflow-y: auto;
 
 }
 
@@ -412,6 +414,7 @@ small{
 }
 
 .pic-florida{
+    color: #0093ce;
     background-color: #0093ce;
 }
 
@@ -550,4 +553,16 @@ footer hr{
 /*----------- 
     /Footer
 ------------*/
+
+
+
+/* Animation */
+
+.pic:hover{
+    box-shadow: 0px 0px 40px 40px inset #0061ff;
+}
+
+.btn:hover{
+    box-shadow: 0px 0px 2px 2px inset;
+}
 
